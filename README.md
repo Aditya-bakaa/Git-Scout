@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-**GitScout** is a developer reconnaissance tool designed to evaluate GitHub profiles instantly. Instead of digging through endless repository tabs, GitScout aggregates public telemetry to deliver an actionable scouting report: key activity stats, high-impact repositories, language distribution, and an objective developer score—all wrapped in a terminal-inspired dark UI.
+**GitScout** is a developer reconnaissance tool designed to evaluate GitHub profiles instantly. Instead of digging through endless repository tabs, GitScout aggregates public telemetry to deliver an actionable scouting report: key activity stats, high-impact repositories, language distribution, and an objective developer score-all wrapped in a terminal-inspired dark UI.
 
 ---
 
