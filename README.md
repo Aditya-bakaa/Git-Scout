@@ -53,4 +53,4 @@ Ensure you have **Node.js** installed on your system.
 4. Open \http://localhost:5173\ in your browser.
 
 5. Want to use it?
-   Click ->
+   Click -> https://git-scout-kappa.vercel.app/
