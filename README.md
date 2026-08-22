@@ -1,6 +1,6 @@
 ﻿# ⚡ gitscout
 
-> **Hiring recon for github profiles** — Know who you're hiring before the interview.
+> **Hiring recon for github profiles** - Know who you're hiring before the interview.
 
 ---
 
@@ -35,19 +35,22 @@ Ensure you have **Node.js** installed on your system.
 ### Running Locally
 
 1. Clone the repository:
-   \\\ash
+   \\\Bash
    git clone https://github.com/Aditya-bakaa/Git-Scout.git
    cd Git-Scout
    \\\
 
 2. Install dependencies:
-   \\\ash
+   \\\Bash
    npm install
    \\\
 
 3. Launch the local server:
-   \\\ash
+   \\\Bash
    npm run dev
    \\\
 
 4. Open \http://localhost:5173\ in your browser.
+
+5. Want to use it?
+   Click ->
