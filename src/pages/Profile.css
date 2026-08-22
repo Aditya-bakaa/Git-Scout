@@ -1,0 +1,136 @@
+.profile {
+  flex: 1;
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-4) var(--space-6);
+}
+
+.profile__back {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  text-decoration: none;
+  margin-bottom: var(--space-4);
+}
+
+.profile__back:hover {
+  color: var(--accent);
+}
+
+.profile__error {
+  padding: var(--space-5) 0;
+}
+
+.profile__error-text {
+  font-family: var(--font-mono);
+  color: var(--danger);
+}
+
+.profile__error-link {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.profile__header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.profile__avatar {
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+}
+
+.profile__identity {
+  flex: 1;
+  min-width: 200px;
+}
+
+.profile__name {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  margin: 0 0 2px;
+}
+
+.profile__login {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.profile__login:hover {
+  text-decoration: underline;
+}
+
+.profile__bio {
+  color: var(--text-muted);
+  margin: var(--space-2) 0 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  max-width: 46ch;
+}
+
+.profile__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+}
+
+.profile__section-title {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 0 0 var(--space-3);
+  font-weight: 400;
+}
+
+.profile__languages {
+  margin-bottom: var(--space-5);
+}
+
+.profile__language-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+}
+
+.profile__language-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 10px;
+  color: var(--text);
+}
+
+.profile__language-count {
+  color: var(--text-dim);
+}
+
+.profile__repo-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.profile__empty {
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
